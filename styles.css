@@ -43,14 +43,24 @@ header img{
 header h1{
     margin-top:0px;
 }
+
+@media (max-width:600px){
+ 
+header h1 {
+    font-size:50px;
+}
+}
+
+
 main {
-    width:800px;
+    max-width:800px;
     margin : 0 auto;
     color:black;
     text-align: center;
+    padding:0 20px;
 }
 main .friends{
-    width:600px;
+    max-width:100%;
     height:300px;
 }
 
@@ -69,8 +79,19 @@ main ul li{
 
 footer .footer-content{
 background-color: orange;
+
 color:white;
 padding:40px;
 margin:0px;
+
 text-align:center;
+}
+
+@media (max-width:1024px){
+    footer p{
+        font-size:16px;
+    }
+header h1 {
+    font-size:50px;
+}
 }
